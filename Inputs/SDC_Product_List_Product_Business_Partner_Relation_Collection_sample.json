@@ -1,0 +1,24 @@
+{
+	"connection_key": "response",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"ProductBusinessPartnerRelationCollection": {
+		"ObjectID":"",                           
+		"ID":"21",                                 
+		"Description":"",                        
+		"TypeCode":"",                           
+		"CategoryCode":"",                       
+		"LifeCycleStatusCode":"",                
+		"AutoProposalIndicator":true,              
+		"ValidForAllBusinessPartnerIndicator":false,
+		"ValidFromDate":"",                      
+		"ValidToDate":"",                        
+		"EntityLastChangedOn":"",                
+		"ETag":""                             
+	},
+	"api_schema": "ProductList",
+	"accepter": ["ProductBusinessPartnerRelationCollection"],
+	"product_list_code": "21",
+	"deleted": false
+}
