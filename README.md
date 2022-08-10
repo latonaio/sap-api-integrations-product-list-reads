@@ -94,5 +94,27 @@ func (c *SAPAPICaller) AsyncGetProductList(iD string, accepter []string) {
 以下の項目のうち、"ObjectID" ～ "ETag" は、/SAP_API_Output_Formatter/type.go 内 の Type ProductBusinessPartnerRelationCollection {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
-XXX
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-product-list-reads/SAP_API_Caller/caller.go#L53",
+	"function": "sap-api-integrations-product-list-reads/SAP_API_Caller.(*SAPAPICaller).ProductBusinessPartnerRelationCollection",
+	"level": "INFO",
+	"message": [
+		{
+			"ObjectID": "00163E05A2E01ED4B2F7179540CF4F13",
+			"ID": "21",
+			"Description": "REWE",
+			"TypeCode": "1",
+			"CategoryCode": "",
+			"LifeCycleStatusCode": "2",
+			"AutoProposalIndicator": true,
+			"ValidForAllBusinessPartnerIndicator": false,
+			"ValidFromDate": "2015-01-01T09:00:00+09:00",
+			"ValidToDate": "9999-12-31T09:00:00+09:00",
+			"EntityLastChangedOn": "2015-03-16T18:00:15+09:00",
+			"ETag": "2015-03-16T18:00:15+09:00"
+		}
+	],
+	"time": "2022-08-10T16:26:01+09:00"
+}
+
 ```
